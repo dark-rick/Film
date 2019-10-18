@@ -189,6 +189,10 @@
     <Compile Include="Migrations\201910181425429_AddData.Designer.cs">
       <DependentUpon>201910181425429_AddData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201910181447317_AddTestNevek.cs" />
+    <Compile Include="Migrations\201910181447317_AddTestNevek.Designer.cs">
+      <DependentUpon>201910181447317_AddTestNevek.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ElofizetesTipus.cs" />
@@ -324,6 +328,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201910181425429_AddData.resx">
       <DependentUpon>201910181425429_AddData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910181447317_AddTestNevek.resx">
+      <DependentUpon>201910181447317_AddTestNevek.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
